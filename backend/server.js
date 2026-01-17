@@ -25,6 +25,7 @@ const creditRoutes = require('./routes/creditroute');
 
 app.use('/api/invoice', InvoiceRoutes);
 app.use('/api/credit', creditRoutes);
+app.use('/api/debit', debitRoutes);
 
 
 // Start server
